@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cipher Encoder/Decoder</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    input, button, textarea {
+      margin: 10px;
+      padding: 10px;
+      width: 300px;
+    }
+    textarea {
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Cipher Encoder/Decoder</h1>
+  <label for="inputText">Input Text:</label>
+  <input type="text" id="inputText" placeholder="Enter text here..."><br>
+
+  <label for="vigenereKey">Vigenère Key:</label>
+  <input type="text" id="vigenereKey" placeholder="Enter key for Vigenère..."><br>
+
+  <button onclick="encodeText()">Encode</button>
+  <button onclick="decodeText()">Decode</button><br>
+
+  <label for="rot13Output">ROT13 Output:</label>
+  <textarea id="rot13Output" readonly></textarea><br>
+
+  <label for="vigenereOutput">Vigenère Cipher Output:</label>
+  <textarea id="vigenereOutput" readonly></textarea><br>
+
+  <label for="caesarOutput">Caesar Cipher Output:</label>
+  <textarea id="caesarOutput" readonly></textarea><br>
+
+  <script src="cipher.js"></script>
+</body>
+</html>

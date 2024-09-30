@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+    background-color: #0d0d0d; /* Dark background */
+    color: #00ff00; /* Neon green color for text */
+    font-family: 'Courier New', Courier, monospace; /* Hacker-like font */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #00ff00;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Box Styles for Inputs and Outputs */
+  input[type="text"], textarea {
+    background-color: #000000; /* Black background for input fields */
+    color: #00ff00; /* Green text color */
+    border: 2px solid #00ff00; /* Green border */
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0px 0px 15px rgba(0, 255, 0, 0.6); /* Green glowing effect */
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #00ff00;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+    width: 150px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #008000; /* Darker green on hover */
+    color: #ffffff; /* White text on hover */
+  }
+  
+  textarea {
+    height: 120px;
+    resize: none; /* Disable resizing of text areas */
+  }
+  
+  /* Flexbox Container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #00ff00;
+  }
+  
+  /* Footer Hacker Logo and Branding */
+  footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  footer img {
+    width: 100px;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  footer p {
+    color: #00ff00;
+    font-size: 0.9rem;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    input[type="text"], textarea {
+      width: 95%;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
