@@ -1,7 +1,7 @@
 # Cipher-Converter
 
 ## Overview
-Welcome to the Cipher-Converter project! This tool is designed to convert text into various cipher formats, ensuring secure communication. Developed during my Hack with Ethics Internship, this project demonstrates the fundamentals of cryptography and ethical hacking.
+Welcome to the Cipher-Converter project! This tool is designed to convert text into various cipher formats, ensuring secure communication. Developed during my Hack with Ethics Internship, this project demonstrates the fundamentals of cryptography.
 
 ## Features
 - **Multiple Cipher Support:** Convert text using different ciphers such as Caesar, Vigenère, and more.
